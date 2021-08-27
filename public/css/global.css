@@ -1,0 +1,63 @@
+/* global css code */
+html,body{
+    padding:0;
+    margin: 0;
+}
+
+/* Footer css code*/
+.pde-footer {
+    display: block;
+    color: #888;
+    padding: 2em 0;
+    height: 3rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+}
+
+/* Login form css code*/
+.pde-form-login {  
+    max-width: 300px;
+    background-color: #f5f5f5;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.form-login .checkbox {
+    font-weight: 400;
+}
+
+.form-login .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-login input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-login input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* Registration css code */
+.pde-form-register{
+    width: 100%;
+    max-width: 100%;
+    padding: 2rem;
+    background-color: #FFFFFF;
+    border: solid rgba(0, 0, 0, .5);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .5);
+}
+
+/* div content css code */
+.pde-conent{
+    width: 100%;
+    max-width: 100%;
+    min-height: 527px;
+    background-color: #FFFFFF;
+}
